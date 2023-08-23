@@ -1,6 +1,8 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    user-select: none;
+    -moz-user-select: none;
 }
 
 body {
@@ -14,16 +16,23 @@ h1{
 #darkmode{
     margin-left: 10px;
     display: none;
+    :hover{
+        cursor: pointer;
+    }
+    :active{
+        transform: scale(0.9);
+    }
 }
 #lightmode{
     margin-left: 10px;
     display: inline;
+    :hover{
+        cursor: pointer;
+    }
+    :active{
+        transform: scale(0.9);
+    }
 }
-
-.switch:hover{
-    cursor: pointer;
-}
-
 .content {
     width: 100vw;
     height: 100vh;

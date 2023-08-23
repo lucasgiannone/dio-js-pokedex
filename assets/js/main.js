@@ -4,7 +4,7 @@ const switchDark = document.getElementById("lightmode");
 const switchLight = document.getElementById("darkmode");
 
 const maxRecords = 151;
-const limit = 10;
+const limit = 12;
 let offset = 0;
 
 function convertPokemonToLi(pokemon) {

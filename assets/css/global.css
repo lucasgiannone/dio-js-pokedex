@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131313;
+}
+
+h1{
+    display: inline;
+}
+
+#darkmode{
+    margin-left: 10px;
+    display: none;
+}
+#lightmode{
+    margin-left: 10px;
+    display: inline;
+}
+
+.switch:hover{
+    cursor: pointer;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #393939;
+    color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
